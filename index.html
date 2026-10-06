@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя подорож у Карпати</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Моя подорож у Карпати</h1>
+
+```
+<nav>
+    <a href="#home">Головна</a>
+    <a href="#places">Місця</a>
+    <a href="#news">Враження</a>
+    <a href="#survey">Опитування</a>
+    <a href="#contacts">Контакти</a>
+</nav>
+
+<input type="search" placeholder="Пошук">
+```
+
+</header>
+
+<main>
+
+<section id="home" class="home">
+    <h2>Карпати — моя маленька пригода</h2>
+    <p>
+        Тут я хочу поділитися своїми враженнями від подорожі
+        Карпатами, Буковелем та сходженням на Говерлу.
+    </p>
+    <img src="images/karpaty.jpg" alt="Краєвид Карпат">
+</section>
+
+<section id="places">
+    <h2>Мої улюблені місця</h2>
+
+```
+<div class="cards">
+
+    <article>
+        <img src="images/karpaty.jpg" alt="Карпати">
+        <h3>Карпати</h3>
+        <p>Красиві гори, ліси та свіже повітря.</p>
+    </article>
+
+    <article>
+        <img src="images/bukovel.jpg" alt="Буковель">
+        <h3>Буковель</h3>
+        <p>Відпочинок, прогулянки та красиві краєвиди.</p>
+    </article>
+
+    <article>
+        <img src="images/hoverla.jpg" alt="Говерла">
+        <h3>Говерла</h3>
+        <p>Найпам'ятніша частина моєї подорожі.</p>
+    </article>
+
+</div>
+```
+
+</section>
+
+<section id="news">
+    <h2>Мої враження</h2>
+
+```
+<article class="news">
+    <h3>Подорож до Карпат</h3>
+    <p>Мені сподобалася природа, гори та атмосфера цього місця.</p>
+</article>
+
+<article class="news">
+    <h3>Сходження на Говерлу</h3>
+    <p>Було нелегко, але краєвид з вершини того вартий.</p>
+</article>
+```
+
+</section>
+
+<section id="survey">
+    <h2>Невелике опитування</h2>
+
+```
+<form>
+    <label>Логін:
+        <input type="text" name="login" placeholder="Ваш логін" required>
+    </label>
+
+    <label>Email:
+        <input type="email" name="email" placeholder="example@gmail.com" required>
+    </label>
+
+    <label>Яке місце вам подобається?
+        <select name="place">
+            <option value="karpaty" selected>Карпати</option>
+            <option value="bukovel">Буковель</option>
+            <option value="hoverla">Говерла</option>
+        </select>
+    </label>
+
+    <p>Хотіли б відвідати Карпати?</p>
+    <label><input type="radio" name="visit" value="yes"> Так</label>
+    <label><input type="radio" name="visit" value="no"> Ні</label>
+
+    <p>Що вас цікавить?</p>
+    <label><input type="checkbox" name="interest" value="mountains"> Гори</label>
+    <label><input type="checkbox" name="interest" value="nature"> Природа</label>
+    <label><input type="checkbox" name="interest" value="travel"> Подорожі</label>
+
+    <label>Ваш коментар:
+        <textarea name="comment" placeholder="Напишіть повідомлення"></textarea>
+    </label>
+
+    <button type="submit">Надіслати</button>
+    <button type="reset">Очистити</button>
+</form>
+```
+
+</section>
+
+<section id="contacts">
+    <h2>Зворотний зв'язок</h2>
+
+```
+<form>
+    <input type="text" placeholder="Ваше ім'я" required>
+    <input type="email" placeholder="Ваш email" required>
+    <textarea placeholder="Ваше повідомлення"></textarea>
+    <button type="submit">Відправити</button>
+</form>
+```
+
+</section>
+
+<section id="login">
+    <h2>Вхід та реєстрація</h2>
+
+```
+<form>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Пароль, мінімум 8 символів"
+           minlength="8" required>
+    <button type="submit">Увійти</button>
+    <button type="reset">Очистити</button>
+</form>
+
+<form>
+    <h3>Реєстрація</h3>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Пароль" minlength="8" required>
+    <input type="password" placeholder="Повторіть пароль" minlength="8" required>
+    <button type="submit">Зареєструватися</button>
+
+```
+
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Моя подорож у Карпати</p>
+</footer>
+
+</body>
+</html>
